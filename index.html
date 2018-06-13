@@ -26,8 +26,8 @@
 <script type="text/javascript" language="JavaScript">
 
 <!--
-var rows=11; // must be an odd number
-var speed=50; // lower is faster
+var rows:7; // must be an odd number
+var speed=25; // lower is faster
 var reveal=2; // between 0 and 2 only. The higher, the faster the word appears
 var effectalign="default" //enter "center" to center it.
 
@@ -184,15 +184,11 @@ setTimeout("zoomer("+ycol+")", speed);
 
 </script>
 
-
-body {
-    background: -webkit-linear-gradient(#ff0000, #00FF00); /* from left to right */
-    background: -o-linear-gradient(#ff0000, #00FF00); /* ending on the right */
-    background: -moz-linear-gradient(#ff0000, #00FF00); /* ending on the right */
-    background: linear-gradient(#ff0000, #00FF00); /* moving to the right */
-    background-color: #ff0000; /* It's a good idea to set a background color in case the gradient doesn't load */
-                
-}
+background: -webkit-linear-gradient(#ff0000, #00FF00); /* from left to right */
+background: -o-linear-gradient(#ff0000, #00FF00); /* ending on the right */
+background: -moz-linear-gradient(#ff0000, #00FF00); /* ending on the right */
+background: linear-gradient(#ff0000, #00FF00); /* moving to the right */
+background-color: #ff0000; /* It's a good idea to set a background color in case the gradient doesn't load */
 </style>
 <style>
 #myContainer {
